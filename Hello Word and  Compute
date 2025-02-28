@@ -1,0 +1,26 @@
+public class Main {
+    public static void main(String[] args) {
+        //TIP 当文本光标位于高亮显示的文本处时按 <shortcut actionId="ShowIntentionActions"/>
+        // 查看 IntelliJ IDEA 建议如何修正。
+        System.out.println("Hello World!");
+
+    }
+}
+
+
+import java.util.Scanner;
+
+public class Compute {
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("请输入第一个数：");
+        int num1=scanner.nextInt();
+        System.out.println("请输入第二个数：");
+        int num2=scanner.nextInt();
+        System.out.println("请输入第二个数：");
+        System.out.println("和："+(num1+num2));
+        System.out.println("差："+(num1-num2));
+        System.out.println("积："+(num1*num2));
+        System.out.println("商："+(num1/num2));
+    }
+}
